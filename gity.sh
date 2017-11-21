@@ -5,7 +5,7 @@ echo "Add your commit message"
 
 read message
 
-if [ -z $message ]
+if [[ -z $message ]]
 then
   echo "ERROR: you must leave a commit message"
   exit 1
