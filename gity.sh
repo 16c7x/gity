@@ -11,7 +11,7 @@ then
   exit 1
 fi
 
-git add
+git add .
 git commit -m "$message"
 git push origin master
 
